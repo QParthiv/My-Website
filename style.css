@@ -1,0 +1,147 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+
+.HomeTitle {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: bolder;
+    font-size: 16.5px;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    background: linear-gradient(to bottom, blue, purple);
+    max-width: 1400px;
+    margin: 25px auto;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px red;
+}
+
+.FlagsLeft {
+    position: relative;
+    top: -218px;
+    left: 68px;
+}
+
+.FlagsRight {
+    transform: scaleX(-1);
+    position: relative;
+    top: -218px;
+    left: 1004px;
+}
+
+.SideDecorationsLeft {
+    transform: rotate(90deg);
+
+    position: relative;
+    left: -737px;
+    top: 270px;
+}
+
+.SideDecorationsRight {
+    transform: rotate(90deg);
+
+    position: relative;
+    left: 737px;
+    top: 104px;
+}
+
+.Line1 {
+    height: 2px;
+    background: linear-gradient(to right, black, red, black);
+    width: 100%;
+    margin: 0 auto;
+
+    position: relative;
+    top: -500px;
+}
+
+.PagesBackground {
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: bold;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    position: relative;
+    top: -500px;
+
+    background: linear-gradient(to bottom, blue, purple);
+    max-width: 1375px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px red;
+}
+
+.PageButtons {
+    display: flex;
+    justify-content: center;
+    gap: 220px;
+    position: relative;
+    top: -625px;
+}
+
+.AboutMeButton, .HobbiesButton, .ProjectsButton, .ContactsButton {
+    background: linear-gradient(to bottom, blue, darkgreen);
+    box-shadow: 0px 5px 15px yellow;
+    border: none;
+    border-radius: 3px;
+    width: 150px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    position: relative;
+
+    font-size: 16px;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+    cursor: pointer;
+    transition: all 1s ease 0s;
+}
+
+.AboutMeButton:hover, .HobbiesButton:hover, .ProjectsButton:hover, .ContactsButton:hover {
+    background: linear-gradient(to bottom, orange, red);
+}
+
+.ArrowUpGifs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 86%;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    position: relative;
+    top: -580px;
+    filter: sepia(100%) saturate(800%) hue-rotate(60deg) brightness(90%);
+}
+
+.AboutMeBackground {
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+
+    background: linear-gradient(to bottom, blue, purple);
+    max-width: 1375px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px red;
+}
+
+.AboutMeText {
+    color: white;
+}
